@@ -1,0 +1,44 @@
+Day 1: Dataset Selection & Understanding
+Project: Supermarket Sales Power BI Project
+
+1. Dataset Source:
+   - Name: Supermarket Sales Dataset
+   - Source: Kaggle (or your downloaded file)
+   - File format: CSV
+   - Number of rows: ~1,000 
+   - Number of columns: 17 
+
+2. Column Descriptions:
+   - Invoice ID: Unique transaction ID
+   - Branch: Store branch (A, B, C)
+   - City: City of the branch
+   - Customer Type: Member or Normal
+   - Gender: Customer gender
+   - Product Line: Category of product sold
+   - Unit Price: Price per item
+   - Quantity: Number of items sold
+   - Tax 5%: Tax amount on sales
+   - Total: Total sales amount (Unit Price * Quantity + Tax)
+   - Date: Transaction date
+   - Time: Transaction time
+   - Payment: Payment method (Cash, Credit, Ewallet)
+   - cogs: Cost of goods sold
+   - gross margin percentage: Gross margin %
+   - gross income: Gross profit per transaction
+   - Rating: Customer satisfaction rating
+
+3. Initial Observations:
+   - Dates are in dd/mm/yyyy format
+   - Numeric columns: Unit Price, Quantity, Tax, Total, cogs, gross income
+   - Categorical columns: Branch, City, Customer Type, Gender, Product Line, Payment
+   - Some columns may need renaming for clarity
+   - No major missing values observed (to confirm in Power BI)
+
+4. Potential Insights to Explore:
+   - Total sales per product line
+   - Sales trends over time (monthly/weekly)
+   - Compare sales by branch and city
+   - Average customer rating per product category
+   - Analyze payment methods used
+
+
